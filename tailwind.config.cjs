@@ -7,12 +7,12 @@ const config = {
   darkMode: "class",
   theme: {
     fontFamily: {
-      sans: ['InterVariable', 'sans-serif'],
+      sans: ['Poppins', 'sans-serif'],
     },
     extend: {
       colors: {
         'core': colors.gray,
-        'brand': colors.blue
+        'brand': colors.indigo
       },
 			screens: {
 				'xs': '320px'

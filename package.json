@@ -38,6 +38,7 @@
   "type": "module",
   "dependencies": {
     "@fontsource/inter": "^4.5.10",
+    "@fontsource/poppins": "^4.5.8",
     "@lukeed/uuid": "^2.0.0",
     "cookie": "^0.4.1"
   }

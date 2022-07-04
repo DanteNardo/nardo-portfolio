@@ -1,5 +1,44 @@
 @import "@fontsource/inter/variable-full.css";
+@import "@fontsource/poppins/100.css";
+@import "@fontsource/poppins/200.css";
+@import "@fontsource/poppins/300.css";
+@import "@fontsource/poppins/400.css";
+@import "@fontsource/poppins/500.css";
+@import "@fontsource/poppins/600.css";
+@import "@fontsource/poppins/700.css";
+@import "@fontsource/poppins/800.css";
+@import "@fontsource/poppins/900.css";
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+	h1 {
+		@apply text-6xl font-extrabold tracking-tight uppercase text-core-900 dark:text-core-100;
+	}
+	h2 {
+		@apply text-3xl font-bold uppercase text-core-700 dark:text-core-500;
+	}
+	h3 {
+		@apply text-lg font-medium;
+	}
+	h4 {
+		@apply text-base font-medium;
+	}
+	h5 {
+		@apply text-sm font-medium uppercase;
+	}
+}
+
+@layer components {
+	.section {
+		@apply bg-core-200 dark:bg-core-800 outline outline-2 outline-white dark:outline-black;
+	}
+}
+
+@layer utilities {
+	.mst {
+		@apply motion-safe:transition motion-safe:duration-200;
+	}
+}
