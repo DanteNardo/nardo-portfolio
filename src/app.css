@@ -15,19 +15,22 @@
 
 @layer base {
 	h1 {
-		@apply text-6xl font-extrabold tracking-tight uppercase text-core-900 dark:text-core-100;
+		@apply text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight uppercase text-core-900 dark:text-core-100;
 	}
 	h2 {
-		@apply text-3xl font-bold uppercase text-core-700 dark:text-core-500;
+		@apply text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold uppercase text-core-700 dark:text-core-500;
 	}
 	h3 {
-		@apply text-lg font-medium;
+		@apply text-sm md:text-base lg:text-lg font-medium;
 	}
 	h4 {
-		@apply text-base font-medium;
+		@apply text-xs md:text-sm lg:text-base font-medium;
 	}
 	h5 {
-		@apply text-sm font-medium uppercase;
+		@apply sm:text-xs lg:text-sm font-medium uppercase;
+	}
+	html {
+		@apply selection:bg-brand-400/50 selection:text-brand-900;
 	}
 }
 

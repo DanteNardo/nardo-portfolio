@@ -3,9 +3,14 @@
 	import TileContainer from "$lib/components/tile-container.svelte";
 </script>
 
-<TileContainer class="flex-auto grid-cols-2 rounded-b-xl">
-	<TileContainer>
-		<Tile href="experience" header="Experience">
+<TileContainer class="flex-auto grid-rows-2 rounded-b-xl">
+	<Tile>
+		<h3 class="uppercase">Bachelors of Science</h3>
+		<h1>Game Design and Development</h1>
+		<!-- <h2 class="mt-2 normal-case font-semibold">at Rochester Institute of Technology</h2> -->
+	</Tile>
+	<TileContainer class="grid-cols-2">
+		<Tile header="Experience">
 		</Tile>
 		<TileContainer class="grid-cols-2">
 			<Tile href="education" header="Education">
@@ -17,6 +22,4 @@
 			</Tile>
 		</TileContainer>
 	</TileContainer>
-	<Tile href="skills" header="Skills">
-	</Tile>
 </TileContainer>

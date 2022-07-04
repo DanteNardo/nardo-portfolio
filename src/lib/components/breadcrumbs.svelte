@@ -36,9 +36,10 @@
 <h3>
 	{#each breadcrumbs as crumb}
 		{#if crumb?.title}
-			<span class="px-1">➞</span><a href={crumb.href} class="hover:underline hover:decoration-2">{crumb.title}</a>
+		<!-- ➞ -->
+			<span class="">/</span><a href={crumb.href} class="hover:underline hover:decoration-2">{crumb.title}</a>
 		{:else}
-			<a href="/" class="hover:underline hover:decoration-2">Resume</a>
+			<a href="/" class="hover:underline hover:decoration-2">portfolio</a>
 		{/if}
 	{/each}
 </h3>
