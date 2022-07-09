@@ -3,7 +3,7 @@
 
 	$: css = () => {
 		return new CssBuilder()
-			.addClass("grid justify-items-stretch")
+			.addClass("flex flex-wrap")
 			.addClass($$props?.class, $$props?.class)
 			.build();
 	};

@@ -7,7 +7,8 @@ const config = {
   darkMode: "class",
   theme: {
     fontFamily: {
-      sans: ['Poppins', 'sans-serif'],
+			display: ['Poppins', 'sans-serif'],
+      sans: ['Inter', 'sans-serif'],
     },
     extend: {
       colors: {
@@ -16,7 +17,10 @@ const config = {
       },
 			screens: {
 				'xs': '320px'
-			}
+			},
+			gridTemplateColumns: {
+        '16': 'repeat(16, minmax(0, 1fr))',
+      }
     },
   },
   plugins: [

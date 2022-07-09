@@ -15,19 +15,19 @@
 
 @layer base {
 	h1 {
-		@apply text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight uppercase text-core-900 dark:text-core-100;
+		@apply font-display text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight uppercase text-core-900 dark:text-core-100;
 	}
 	h2 {
-		@apply text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold uppercase text-core-700 dark:text-core-500;
+		@apply font-display text-base sm:text-lg md:text-xl lg:text-2xl font-bold uppercase text-core-700 dark:text-core-500;
 	}
 	h3 {
-		@apply text-sm md:text-base lg:text-lg font-medium;
+		@apply font-display text-sm md:text-base lg:text-lg font-medium;
 	}
 	h4 {
-		@apply text-xs md:text-sm lg:text-base font-medium;
+		@apply font-display text-xs md:text-sm lg:text-base font-medium;
 	}
 	h5 {
-		@apply sm:text-xs lg:text-sm font-medium uppercase;
+		@apply font-display sm:text-xs lg:text-sm font-medium uppercase;
 	}
 	html {
 		@apply selection:bg-brand-400/50 selection:text-brand-900;
@@ -35,9 +35,7 @@
 }
 
 @layer components {
-	.section {
-		@apply bg-core-200 dark:bg-core-800 outline outline-2 outline-white dark:outline-black;
-	}
+	
 }
 
 @layer utilities {

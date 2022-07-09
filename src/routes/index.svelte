@@ -3,25 +3,22 @@
 	import TileContainer from "$lib/components/tile-container.svelte";
 </script>
 
-<div class="flex flex-col w-full h-full">
-	<Tile>
-		<h1>Dante<br />Nardo</h1>
-		<h3 class="uppercase font-normal tracking-widest">Software Engineer</h3>
-	</Tile>
-	<div class="flex">
-		<div class="basis-6/12 rounded-b-xl">
-			<Tile href="experience" header="Experience">
-			</Tile>
-			<div class="flex">
-				<Tile href="education" header="Education" class="rounded-bl-xl">
-					<h5>B.S. 2018</h5>
-					<h3>Game Design and Development</h3>
-				</Tile>
-				<Tile href="contact" header="Contact">
-					<p>You can reach me via phone, email, and linkedin.</p>
-				</Tile>
-			</div>
+<Tile class="col-span-full">
+	<div class="flex gap-20 items-center">
+		<div>
+			<h1>Dante<br />Nardo</h1>
+			<h3 class="uppercase font-normal tracking-widest">Software Engineer</h3>
 		</div>
-		<Tile href="skills" header="Skills" class="basis-6/12 rounded-br-xl"></Tile>
+		<h2 class="normal-case font-light leading-normal">I'm an engineer and designer who loves accessible, useful software.</h2>
 	</div>
-</div>
+</Tile>
+<Tile href="education" header="Education" class="col-span-4">
+	<h5>B.S. 2018</h5>
+	<h3>Game Design and Development</h3>
+</Tile>
+<Tile href="contact" header="Contact" class="col-span-4">
+	<p>You can reach me via phone, email, and linkedin.</p>
+</Tile>
+<Tile href="experience" header="Experience" class="col-span-8"></Tile>
+<Tile href="skills" header="Skills" class="col-span-8"></Tile>
+<Tile href="projects" header="Projects" class="col-span-8"></Tile>
