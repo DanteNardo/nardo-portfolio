@@ -3,7 +3,7 @@
 	import Breadcrumbs from "$lib/components/breadcrumbs.svelte";
 </script>
 
-<div class="flex flex-col w-screen h-screen max-w-screen max-h-screen bg-core-200 dark:bg-core-800 text-core-500 dark:text-core-500">
+<div class="flex flex-col w-screen h-screen max-w-screen max-h-screen bg-core-200 dark:bg-core-900 text-core-500 dark:text-core-400">
 	<div class="flex w-full h-full p-24 items-center justify-center">
 		<!-- AppContainer -->
 		<div class="flex-auto grid grid-cols-16 max-w-full max-h-full rounded-xl overflow-hidden border-2 border-white dark:border-black drop-shadow-2xl">

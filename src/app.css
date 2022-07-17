@@ -30,7 +30,7 @@
 		@apply font-display sm:text-xs lg:text-sm font-medium uppercase;
 	}
 	html {
-		@apply selection:bg-brand-400/50 selection:text-brand-900;
+		@apply selection:bg-brand-300 selection:text-brand-900;
 	}
 }
 
@@ -42,4 +42,9 @@
 	.mst {
 		@apply motion-safe:transition motion-safe:duration-200;
 	}
+}
+
+@page {
+	size: letter;
+	margin: 0;
 }
